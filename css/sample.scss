@@ -14,6 +14,12 @@ html {
 	font-size: ($size / $base) * 1rem;
 }
 
+@mixin minPc {
+	@media (min-width: 551px) {
+		@content;
+	}
+}
+
 h1{
   margin: 0;
   padding: 0;
@@ -67,7 +73,7 @@ header{
 		}
 	}
 
-	@media (min-width: 551px) {
+	@include minPc {
 		.sp_navi{
 			display: none;
 		}
@@ -188,7 +194,7 @@ header{
 
 		}
 
-		@media (min-width: 551px) {
+		@include minPc {
 			text-align: left;
 			height:420px;
 			padding:0;
@@ -215,13 +221,13 @@ header{
 		margin: 0;
 		letter-spacing: 0.2rem;
 
-		@media (min-width: 550px){
+		@include minPc {
 			font-size: 32px;
 			font-size: 3.2rem;
 		}
 	}	
 	
-	@media (min-width: 550px){
+	@include minPc {
 		padding: 80px 0;
 	}
 }
@@ -230,8 +236,6 @@ header{
 	padding-top: 20px;
 
 	#main{
-		padding-right: 20px;
-
 		h2{
 			color: #42b9d0;
 			border-bottom: 3px solid #42b9d0;
@@ -244,7 +248,7 @@ header{
 				margin-bottom: 0px;
 			}
 			
-			@media (min-width: 550px){
+			@include minPc {
 				font-size: 20px;
 				font-size: 2rem;
 				padding-bottom: 20px;
@@ -271,7 +275,7 @@ header{
 			li{
 				list-style: none;
 				
-				@media (min-width: 550px){
+				@include minPc {
 					list-style: none;
 					padding-bottom: 5px;
 				}
@@ -282,7 +286,7 @@ header{
 					font-weight: bold;
 					margin-bottom: 3px;
 
-					@media (min-width: 550px){
+					@include minPc {
 						display: inline-block;
 						margin-bottom: 0;
 						padding-right: 10px;
@@ -291,7 +295,7 @@ header{
 			}
 		}
 		
-		@media (min-width: 550px){
+		@include minPc {
 			padding-right: 20px;
 		}
 	}
@@ -334,7 +338,7 @@ header{
 		}
 	}
 
-	@media (min-width: 550px){
+	@include minPc {
 		padding-top: 35px;
 		padding-bottom: 70px;
 	}
@@ -343,7 +347,7 @@ header{
 #service_area{
 	padding-top:20px;
 	
-	@media (min-width: 551px) {
+	@include minPc {
 		padding-top: 30px;
 	}
 	// min-width: 551px
@@ -365,7 +369,7 @@ header{
 			margin-top: 10px;
 		}
 
-		@media (min-width: 551px) {
+		@include minPc {
 
 			.service_title{
 				@include fontsize(16);
@@ -386,7 +390,7 @@ header{
 #news_area{
 	background-color:$gray_blue;
 
-	@media (min-width: 551px) {
+	@include minPc {
 
 		.container{
 
@@ -424,7 +428,7 @@ header{
 	}
 	// .news_lists
 
-	@media (min-width: 551px) {
+	@include minPc {
 
 		.news_title{
 
@@ -519,7 +523,7 @@ footer{
 
 
 
-  @media (min-width: 551px) {
+  @include minPc {
 
     padding-top: 30px;
 

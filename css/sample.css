@@ -163,13 +163,13 @@ header .sp_navi_li li a {
   margin: 0;
   letter-spacing: 0.2rem;
 }
-@media (min-width: 550px) {
+@media (min-width: 551px) {
   #sub_cover h2 {
     font-size: 32px;
     font-size: 3.2rem;
   }
 }
-@media (min-width: 550px) {
+@media (min-width: 551px) {
   #sub_cover {
     padding: 80px 0;
   }
@@ -177,9 +177,6 @@ header .sp_navi_li li a {
 
 #contents {
   padding-top: 20px;
-}
-#contents #main {
-  padding-right: 20px;
 }
 #contents #main h2 {
   color: #42b9d0;
@@ -192,7 +189,7 @@ header .sp_navi_li li a {
 #contents #main h2.company_title {
   margin-bottom: 0px;
 }
-@media (min-width: 550px) {
+@media (min-width: 551px) {
   #contents #main h2 {
     font-size: 20px;
     font-size: 2rem;
@@ -211,7 +208,7 @@ header .sp_navi_li li a {
 #contents #main .news_li li {
   list-style: none;
 }
-@media (min-width: 550px) {
+@media (min-width: 551px) {
   #contents #main .news_li li {
     list-style: none;
     padding-bottom: 5px;
@@ -223,14 +220,14 @@ header .sp_navi_li li a {
   font-weight: bold;
   margin-bottom: 3px;
 }
-@media (min-width: 550px) {
+@media (min-width: 551px) {
   #contents #main .news_li li span {
     display: inline-block;
     margin-bottom: 0;
     padding-right: 10px;
   }
 }
-@media (min-width: 550px) {
+@media (min-width: 551px) {
   #contents #main {
     padding-right: 20px;
   }
@@ -268,7 +265,7 @@ header .sp_navi_li li a {
     display: none;
   }
 }
-@media (min-width: 550px) {
+@media (min-width: 551px) {
   #contents {
     padding-top: 35px;
     padding-bottom: 70px;
